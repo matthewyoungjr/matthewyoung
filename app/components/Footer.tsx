@@ -10,7 +10,7 @@ const Footer = () => {
       label: "LinkedIn",
       path: "https://www.linkedin.com/in/matthew-young-82a099213/",
     },
-    { label: "E-mail", path: "mattyoungjnr@gmail.com" },
+    { label: "E-mail", path: "mailto:mattyoungjnr@gmail.com" },
   ];
 
   const links = socials.map((link, index) => (

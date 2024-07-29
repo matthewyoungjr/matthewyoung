@@ -6,7 +6,7 @@ const Bio = () => {
     <>
       <Box className="" py="7" pr="5">
         <Text as="p" size="4" weight="light">
-          I'm a seasoned frontend developer, and the co-founder of{" "}
+          I&lsquo;m a seasoned frontend developer, and the co-founder of{" "}
           <Text as="span" weight="bold">
             ImmoSolus
           </Text>
@@ -16,7 +16,7 @@ const Bio = () => {
 
       <Text size="4" weight="light">
         I have a passion for learning, and I am constantly seeking to improve my
-        skills mostly through practice & reading. I'm interested in{" "}
+        skills mostly through practice & reading. I&lsquo;m interested in{" "}
         <Text as="span" weight="bold" className="text-sky-500">
           TypeScript
         </Text>{" "}

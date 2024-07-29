@@ -12,8 +12,8 @@ const Header = () => {
         wrap="balance"
         weight="medium"
       >
-        I'm a Front-End Developer — a builder focused on creating user-friendly
-        products and experiences for the web.
+        I&lsquo;m a Front-End Developer — a builder focused on creating
+        user-friendly products and experiences for the web.
       </Heading>
     </>
   );

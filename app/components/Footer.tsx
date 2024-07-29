@@ -25,7 +25,7 @@ const Footer = () => {
     <Flex gapX="5" gapY="3" className="mt-20" align="center" wrap="wrap">
       {links}
 
-      <Text weight="medium"> Matthew Y. | {getYear.date}</Text>
+      <Text weight="medium"> Matthew Y. | {getYear}</Text>
     </Flex>
   );
 };

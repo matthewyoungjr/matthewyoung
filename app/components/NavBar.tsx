@@ -6,14 +6,15 @@ const Header = () => {
   const paths = [
     { label: "home", path: "/" },
     { label: "blog", path: "/blog" },
-    { label: "thoughts", path: "/thoughts" },
     { label: "projects", path: "/projects" },
   ];
 
   return (
-    <Flex display="flex" justify="between" align="center">
+    <Flex display="flex" justify="between" align="center" gap="5" wrap="wrap">
       <Box>
-        <Heading as="h3">Matthew Y.</Heading>
+        <Heading weight="medium" as="h3">
+          Matthew Y.
+        </Heading>
         <Text className="text-gray-500 " as="p" size="4">
           Front-End Developer
         </Text>
